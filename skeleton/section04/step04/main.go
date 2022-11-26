@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	// TODO: インポートパスを公開したものに変更する
-	"github.com/gohandson/tenntenn/gacha"
+	"github.com/Tatsurou-Yajima/gacha"
 )
 
 func main() {
