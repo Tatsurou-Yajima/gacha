@@ -16,9 +16,10 @@ func main() {
 
 	// TODO: 変数iを1から11まで増やしていき処理を10回繰り返す
 
-		// 0から99までの間で乱数を生成する
-		num := rand.Intn(100)
+	// 0から99までの間で乱数を生成する
 
+	for i := 1; i <= 11; i++ {
+		num := rand.Intn(100)
 		fmt.Printf("%d回目 ", i)
 
 		// 変数numが0〜79のときは"ノーマル"、
@@ -34,4 +35,6 @@ func main() {
 		default:
 			fmt.Println("XR")
 		}
+	}
+
 }

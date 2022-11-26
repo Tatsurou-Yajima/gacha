@@ -13,7 +13,14 @@ func main() {
 	// 現在時刻をUNIX時間にしたものを種とする
 	rand.Seed(time.Now().Unix())
 
-	// TODO: 以下の処理をdraw関数として定義する
+
+
+	// TODO: draw関数を呼ぶ
+	draw()
+}
+
+func draw() {
+		// TODO: 以下の処理をdraw関数として定義する
 
 	// 0から99までの間で乱数を生成する
 	num := rand.Intn(100)
@@ -33,6 +40,4 @@ func main() {
 	}
 
 	//  -- ここまで
-
-	// TODO: draw関数を呼ぶ
 }
